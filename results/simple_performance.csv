@@ -1,0 +1,16 @@
+algorithm,optimization,data_size,time_ms
+quicksort_recursive,O0,100000,21
+quicksort_iterative,O0,100000,22
+mergesort_omp,O0,100000,45
+quicksort_recursive,O1,100000,20
+quicksort_iterative,O1,100000,19
+mergesort_omp,O1,100000,42
+quicksort_recursive,O2,100000,20
+quicksort_iterative,O2,100000,17
+mergesort_omp,O2,100000,36
+quicksort_recursive,O3,100000,21
+quicksort_iterative,O3,100000,18
+mergesort_omp,O3,100000,37
+quicksort_recursive,Ofast,100000,20
+quicksort_iterative,Ofast,100000,18
+mergesort_omp,Ofast,100000,40
